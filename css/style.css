@@ -1,0 +1,74 @@
+body {
+    font-family: 'Helvetica Neue', Roboto, Gulim,sans-serif;
+    font-size:13px;
+    background-color: #e9ebee;
+    margin: 0 auto;
+}
+
+.redbar {
+    background-color: darkred;
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+
+img#avatar {
+    width: 150px;
+    margin-top: 2%;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+
+div.content {
+    margin-left: 10%;
+}
+
+h1#intro {
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+div.content {
+    min-height: 300px;
+    padding: 15px;
+}
+
+ul.labs {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.labs li a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 17px;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #ddd;
+}
+
+.footer .w3cValidator {
+    float: right;
+    padding-right: 30px;
+}
+
+#mood ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#mood li {
+    float: left;
+    padding-right: 10px;
+}
+
+#mood ul li img {
+    width: 200px;
+}
